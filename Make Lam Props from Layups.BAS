@@ -1,6 +1,6 @@
 Sub Main
 	'==================================================
-	'Program to make properties based on existing layups.
+	'Automatically generate properties based on existing layup definitions.
 	'
 	'User is prompted for a layup selection, and the program will make properties
 	'with the same names. Matching IDs will be used unless they are not available,
