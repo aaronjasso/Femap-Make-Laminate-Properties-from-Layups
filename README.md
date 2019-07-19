@@ -3,7 +3,7 @@ Automatically generate properties based on existing layup definitions.
 
 See [How to use Femap Scripts](https://github.com/aaronjasso/How_to_use_Femap_Scripts) if you're unfamiliar with how to run a macro program
 
-Modeling with laminates requires both a laminate definition and a corresponding property definition. After defining the laminates, this program will automatically generate property definitions for each layup you choose (one property for each layup definition). The new properties will have the same title as the corresponding layup definition and (depending on availability and user choice), the same IDs. It's common practice to have matching IDs between the laminates and properties so this will be attempted, but if conflicts are found the user may choose to skip or overwrite them.
+Modeling with laminates requires both a layup definition and a corresponding property definition. After you've defined some layups, this program will automatically generate property definitions for each layup you choose (one property for each layup definition). The new properties will have the same title as the corresponding layup definition and (depending on availability and user choice), the same IDs. It's common practice to have matching IDs between the laminates and properties so this will be attempted, but if conflicts are found the user may choose to skip or overwrite them.
 
 `The overwrite can be undone as long as your Undo Levels is at least 1 (Femap Preferences > Database Tab > Database Options section)`
 
