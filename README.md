@@ -6,8 +6,7 @@ Modeling with laminates requires both a laminate definition and a corresponding 
 `The overwrite can be undone as long as your Undo Levels is at least 1 (Femap Preferences > Database Tab > Database Options section)`
 
 # Instructions
-1. Define at least one layup and run this program
-`See [How to use Femap Scripts](https://github.com/aaronjasso/How_to_use_Femap_Scripts) if you're unfamiliar with how to run a macro program`
+1. Define at least one layup and run this program. See [How to use Femap Scripts](https://github.com/aaronjasso/How_to_use_Femap_Scripts) if you're unfamiliar with how to run a macro program
 
 2. Choose layups which layups to process. Note that all layups are listed, whether or not they're already used in any property cards.
 
