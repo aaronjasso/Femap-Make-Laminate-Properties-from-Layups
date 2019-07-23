@@ -23,6 +23,8 @@ Sub Main
 	'
 	'Versions:
 	'-Initial Release, 7.18.2019
+	'
+	'Please comment or contribute at https://github.com/aaronjasso/Femap-Make-Laminate-Properties-from-Layups
 	'==================================================
     Dim App as femap.model
     Set App = feFemap()
