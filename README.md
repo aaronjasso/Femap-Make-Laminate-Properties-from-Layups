@@ -10,13 +10,13 @@ Modeling with laminates requires both a layup definition and a corresponding pro
 
 
 # Instructions
-1. Define at least one layup and run this program.
+### 1. Define at least one layup and run this program.
 
-2. Choose layups which layups to process. Note that all layups are listed, whether or not they're already used in any property cards.
+### 2. Choose layups which layups to process. Note that all layups are listed, whether or not they're already used in any property cards.
 
 ![Choose Layups](images/choose.png)
 
-3. If any properties exist with the same IDs as the chosen layups, a dialog will appear prompting you to choose how to handle this ID conflict. The list contains the properties with conflicting IDs.
+### 3. If any properties exist with the same IDs as the chosen layups, a dialog will appear prompting you to choose how to handle this ID conflict. The list contains the properties with conflicting IDs.
 
 `If no conflicts are detected, the program skips to step 4`
 
@@ -35,7 +35,7 @@ Modeling with laminates requires both a layup definition and a corresponding pro
    * __List conflicting properties to message window__
    This is for your reference to view the conflicting properties later. This choice does not affect the model.
 
-4. Choose default parameters for the properties that are about to be generated.
+### 4. Choose default parameters for the properties that are about to be generated.
 
 ![Choose default parameters](images/params.png)
 
