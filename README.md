@@ -27,11 +27,11 @@ If no conflicts are detected, the program skips to step 4
    * __Skip Conflicting Properties__
    Any layups who's corresponding property ID already exists will be skipped. All non-conflicting properties will still be generated.
    
-   * __Make all properties but use non-matching, next available IDs...__
+   * __Make all properties but use non-matching, next available IDs__
    Non-conflicting properties will be made wherever possible. For all remaining layups, properties will be generated that _do not_ match the IDs of their layups. This approach still generates a single property for each chosen layup, but some IDs won't match.
    
-   * __Overwrite existing properties...__
-   **warning** This method will replace existing properties with layup properties.
+   * __Overwrite existing properties__   
+   **WARNING** This method will replace existing properties with layup properties.
    The program will force the new property IDs to match the chosen layup IDs. This is not recommended if the existing properties in the list are not laminate properties. For example, if a bar property is in use elsewhere in your model on a bar element and the property is overwritten with a laminate, the bar element will end up with an incorrect property type.
    
    * __List conflicting properties to message window__
